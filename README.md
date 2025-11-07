@@ -1,1 +1,4 @@
-# actions-codespaces-repo
+# Actions + Codespaces Demo
+
+>[!NOTE]
+> Let's learn about GitHub Actions and GitHub Codespaces!
