@@ -1,0 +1,27 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/markdown
+{
+	"name": "Markdown Editing",
+
+	"image": "mcr.microsoft.com/devcontainers/base:bullseye",
+
+
+	"customizations": {
+		"vscode": {			
+			"extensions": [
+				"yzhang.markdown-all-in-one",
+				"streetsidesoftware.code-spell-checker",
+				"DavidAnson.vscode-markdownlint",
+				"shd101wyy.markdown-preview-enhanced",
+				"bierner.github-markdown-preview",
+				"GitHub.copilot",
+				"bierner.markdown-preview-github-styles"
+			]
+		}
+	},
+	"features": {
+		"ghcr.io/dhoeric/features/act:1": {}
+	}
+
+
+}
